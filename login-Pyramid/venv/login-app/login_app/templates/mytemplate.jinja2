@@ -1,0 +1,16 @@
+{% extends "layout.jinja2" %} 
+
+{% block content%}
+<div class="content">
+    <form action="http://localhost:6543/login" method ="post">
+  		User Name<br>
+  		<input type="text" name="username"><br>
+ 	    Password:<br>
+  		<input type="password" name="password" ><br>
+  		<br><input type="submit" value = "submit" name ="form.submitted">
+	</form>
+	<div>
+          Don't have an account? <a href="http://localhost:6543/signup">Sign up here</a>.
+    </div>
+</div>
+{% endblock content %}

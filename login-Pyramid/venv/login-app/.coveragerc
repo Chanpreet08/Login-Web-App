@@ -1,0 +1,3 @@
+[run]
+source = login_app
+omit = login_app/test*
